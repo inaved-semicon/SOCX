@@ -1,3 +1,4 @@
+Starting Command: verify_test_structures 
 
 INFO (TDA-005): Command Line Invocation: 
             verify_test_structures -testmode FULLSCAN -workdir /home/admin/DFT/SOCX/ATPG -messagecount TSV-016=10,TSV-024=10,TSV-315=10,TSV-027=10 -stdout summary  [end TDA_005]
@@ -191,3 +192,28 @@ INFO (TDA-001): Maximum Memory used during the run and Cumulative Time in hours:
      Date Ended:  Wednesday Jul 01 17:10:19 2026  IST
 
 
+
+
+-------------------------------------------------------------------------------
+*                      Message Summary                                        *
+-------------------------------------------------------------------------------
+ Count  Number             First Instance of Message Text
+------- ------             ------------------------------
+
+  INFO Messages...
+      1 INFO (TFW-117): Modus checked out a modus_atpg license.   
+      1 INFO (TFW-119): Modus checked in a modus_atpg license.   
+      1 INFO (TLM-055): Design Summary
+      1 INFO (TSV-068): The length of the longest scan chain is 91 bit positions, which is 101% of the average scan chain length 91 (based on 361 total scan chain bits and 4 valid scan chains).    
+      4 INFO (TSV-378): Scan chain beginning at 'pin ScanIn_1' and ending at 'pin ScanOut_1' is controllable and observable. The length of the scan chain is 91 bit positions.    
+      1 INFO (TSV-383): There are 1 floating latches.    
+      1 INFO (TSV-567): There are 4 controllable scan chains fed by Scan In (SI) primary inputs.    
+      1 INFO (TSV-568): There are 4 observable scan chains feeding to Scan Out (SO) primary outputs.    
+      1 INFO (TSV-569): There are 0 controllable scan chains fed by on-product Pattern Generator(s).    
+      1 INFO (TSV-570): There are 0 observable scan chains feeding to on-product Multiple-Input Signature Register (MISRs).    
+      1 INFO (TSV-900): verify_test_structures processing has started Wed Jul  1 17:10:18 2026     
+      1 INFO (TSV-908): verify_test_structures processing complete.    
+
+ For a detailed explanation of a message and a suggested user response execute 'msgHelp <message id>'.  For example: msgHelp TDA-009
+
+-------------------------------------------------------------------------------
